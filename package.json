@@ -1,0 +1,27 @@
+{
+  "name": "@schornio/healthy-pic",
+  "version": "1.0.0",
+  "description": "Get a green or red pic depending on the responsiveness of a certain service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://schornio@github.com/schornio/healthy-pic.git"
+  },
+  "keywords": [
+    "status",
+    "webservice"
+  ],
+  "author": "Thomas Schorn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schornio/healthy-pic/issues"
+  },
+  "homepage": "https://github.com/schornio/healthy-pic#readme",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}
