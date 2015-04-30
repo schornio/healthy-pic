@@ -65,4 +65,4 @@ app.get('/:item', function (request, response, next) {
   return;
 });
 
-app.listen(1337);
+app.listen(process.env.PORT || 1337);
